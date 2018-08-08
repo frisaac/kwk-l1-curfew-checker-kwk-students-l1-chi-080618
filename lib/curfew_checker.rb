@@ -6,16 +6,18 @@ def curfew_checker(time)
   # code goes here
   if time <= 11
     "remember, curfew is at 11!"
+  end
 end
 
 def complex_curfew_checker(time)
   # code goes here
   if time < 11
     puts "remember curfew is at 11!"
-  if time == 11
+  elsif time == 11
     puts "apparate home now!"
   else
     puts "you're late!"
+  end
 end
 
 def deluxe_curfew_checker(time)
@@ -28,6 +30,7 @@ def deluxe_curfew_checker(time)
     puts "go home"
   else
     puts "you're late!"
+  end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
