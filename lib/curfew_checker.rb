@@ -13,12 +13,12 @@ end
 
 def complex_curfew_checker(time)
   # code goes here
-  if time < 11
-    puts "remember curfew is at 11!"
+  if time > 11
+    puts "You're late!!"
   elsif time == 11
-    puts "apparate home now!"
+    puts "Time to apparate home!"
   else
-    puts "you're late!"
+    puts "Remember, curfew is at 11!"
   end
 end
 
