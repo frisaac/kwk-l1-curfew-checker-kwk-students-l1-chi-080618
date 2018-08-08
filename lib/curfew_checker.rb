@@ -36,7 +36,7 @@ end
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
   if time < curfew
-    puts "you have " + curfew - time +" hours until curfew"
+    puts "you have " + curfew - time + " hours until curfew"
   elsif time == curfew
     puts "go home"
   else
