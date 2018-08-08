@@ -4,8 +4,10 @@ end
 
 def curfew_checker(time)
   # code goes here
-  if time <= 11
-    "remember, curfew is at 11!"
+  if time > 11
+    "You're late!"
+  else
+    "Remember, curfew is at 11!"
   end
 end
 
