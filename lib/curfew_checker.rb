@@ -24,25 +24,24 @@ end
 
 def deluxe_curfew_checker(time)
   curfew = 11
-
+  if time > curfew
+    puts "You're late!"
+  elsif time == curfew
+    puts "Time to apparate home!"
   # code goes here
   if time < curfew
-    puts "you have " + curfew - time +" hours until curfew"
-  elsif time == curfew
-    puts "go home"
-  else
-    puts "you're late!"
+    puts "you have " + (curfew - time) +" hours until curfew"
   end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
-  if time < curfew
-    puts "you have " + curfew - time + " hours until curfew"
+  if time > curfew
+    puts "You're late!"
   elsif time == curfew
-    puts "go home"
+    puts "Curfew is now!"
   else
-    puts "you're late!"
+    puts "You have " + curfew - time + " hours until curfew!"
   end
 end
 
